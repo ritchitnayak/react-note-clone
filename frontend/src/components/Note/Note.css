@@ -1,0 +1,38 @@
+.note-container {
+    transition: border 0.1s ease-in-out;
+}
+
+.note-container:hover {
+    cursor: pointer;
+    border-left: 4px solid rgb(239, 155, 110);
+    background: rgb(255, 254, 253);
+}
+
+.note-container.active {
+    border-left: 4px solid rgb(239, 155, 110);
+    background: rgb(248, 238, 229);
+}
+
+.note {
+    border-bottom: 0.8px solid rgb(212, 207, 202);
+    padding: 10px 1.2rem 10px 0;
+    margin-left: 1.2rem;
+    transition: border 0.1s ease-in-out;
+}
+
+.note-title,
+.note-preview {
+    margin: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.note-date {
+    margin: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
+    color: rgb(122, 121, 121);
+}

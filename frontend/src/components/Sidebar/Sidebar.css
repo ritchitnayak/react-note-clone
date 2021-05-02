@@ -1,0 +1,36 @@
+.sidebar {
+    transition: width 0.3s;
+    height: 100vh;
+    grid-template-rows: 60px auto;
+    border-right: 1px solid rgb(242, 237, 232);
+    border-left: 1px solid rgb(242, 237, 232);
+    overflow: auto;
+    width: 300px;
+    float: left;
+}
+
+.sidebar.collapsed {
+    width: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px 12px 12px;
+    border-bottom: 1px solid rgb(242, 237, 232);
+}
+
+.title {
+    width: 150px;
+}
+
+.new-folder {
+    color: rgb(59, 56, 56);
+}
+
+.new-folder:hover {
+    cursor: pointer;
+    color: rgb(204, 148, 65);
+}

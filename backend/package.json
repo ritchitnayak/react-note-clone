@@ -1,0 +1,20 @@
+{
+  "name": "react-notes-app",
+  "version": "1.0.0",
+  "description": "Clone of MacOS notes app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js localhost 3080"
+  },
+  "author": "Ritchit Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,43 @@
+.notes-panel {
+    height: 100vh;
+    grid-template-rows: 60px auto;
+    border-right: 1px solid rgb(242, 237, 232);
+    border-left: 1px solid rgb(242, 237, 232);
+    overflow: auto;
+    width: 400px;
+    float: left;
+}
+
+.notes-panel-header {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 12px 12px 12px;
+    border-bottom: 1px solid rgb(242, 237, 232);
+}
+
+.collapse-sidebar {
+    color: rgb(59, 56, 56);
+}
+
+.collapse-sidebar:hover {
+    cursor: pointer;
+    color: rgb(204, 148, 65);
+}
+
+.new-note {
+    color: rgb(59, 56, 56);
+}
+
+.new-note:hover {
+    cursor: pointer;
+    color: rgb(204, 148, 65);
+}
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 240px;
+}
